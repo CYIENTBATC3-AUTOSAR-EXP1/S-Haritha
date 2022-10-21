@@ -1,0 +1,292 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4585 ]
+[d frameptr 4065 ]
+"11 D:\project folder\hsgdhf.X/can_config.h
+[v _can_config_baud can_config_baud `(v  1 e 1 0 ]
+"11 D:\project folder\hsgdhf.X/can_init.h
+[v _can_init can_init `(v  1 e 1 0 ]
+"11 D:\project folder\hsgdhf.X/mask_filter.h
+[v _mask_filter mask_filter `(v  1 e 1 0 ]
+"15 D:\project folder\hsgdhf.X/RX_receive.h
+[v _rx_receive rx_receive `(v  1 e 1 0 ]
+"11 D:\project folder\hsgdhf.X/set_mode.h
+[v _set_mode set_mode `(v  1 e 1 0 ]
+"11 D:\project folder\hsgdhf.X/sys_init.h
+[v _sys_init sys_init `(v  1 e 1 0 ]
+"13 D:\project folder\hsgdhf.X/TX_WRITE.h
+[v _tx_write tx_write `(v  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"88 D:\project folder\hsgdhf.X\mainappln.c
+[v _ISR1 ISR1 `IIH(v  1 e 1 0 ]
+"101
+[v _main main `(v  1 e 1 0 ]
+"11 D:\project folder\hsgdhf.X/RX_receive.h
+[v _DHR DHR `ui  1 e 2 0 ]
+"12
+[v _DLR DLR `ui  1 e 2 0 ]
+"13
+[v _DLCR DLCR `ui  1 e 2 0 ]
+"14
+[v _RX_data RX_data `[8]ui  1 e 16 0 ]
+"14804 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18Fxxxx_DFP/1.3.36/xc8\pic\include\proc\pic18f4585.h
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"14916
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"17426
+[v _RXM0SIDH RXM0SIDH `VEuc  1 e 1 @3864 ]
+"17538
+[v _RXM0SIDL RXM0SIDL `VEuc  1 e 1 @3865 ]
+"20862
+[v _TXB0CON TXB0CON `VEuc  1 e 1 @3904 ]
+"20964
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21076
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21392
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21470
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"21532
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3911 ]
+"21594
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3912 ]
+"21656
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3913 ]
+"21718
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3914 ]
+"21780
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3915 ]
+"21842
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3916 ]
+"21904
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3917 ]
+[s S95 . 1 `uc 1 FILHIT0 1 0 :1:0 
+`uc 1 JTOFF_FILHIT1 1 0 :1:1 
+`uc 1 RXB0DBEN_FILHIT2 1 0 :1:2 
+`uc 1 RXRTRRO_FILHIT3 1 0 :1:3 
+`uc 1 FILHIT4 1 0 :1:4 
+`uc 1 RXM0_RTRRO 1 0 :1:5 
+`uc 1 RXM1 1 0 :1:6 
+`uc 1 RXFUL 1 0 :1:7 
+]
+"23582
+[s S104 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 JTOFF 1 0 :1:1 
+`uc 1 RXB0DBEN 1 0 :1:2 
+`uc 1 RXRTRRO 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXM0 1 0 :1:5 
+]
+[s S111 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 FILHIT1 1 0 :1:1 
+`uc 1 FILHIT2 1 0 :1:2 
+`uc 1 FILHIT3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RTRRO 1 0 :1:5 
+]
+[s S118 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RXBODBEN 1 0 :1:2 
+]
+[s S121 . 1 `uc 1 RXB0FILHIT0 1 0 :1:0 
+`uc 1 RXB0FILHIT1 1 0 :1:1 
+`uc 1 RXB0FILHIT2 1 0 :1:2 
+`uc 1 RXB0FILHIT3 1 0 :1:3 
+`uc 1 RXB0FILHIT4 1 0 :1:4 
+`uc 1 RXB0M0 1 0 :1:5 
+`uc 1 RXB0M1 1 0 :1:6 
+`uc 1 RXB0FUL 1 0 :1:7 
+]
+[s S130 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RXB0RTRR0 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 RXB0RTRRO 1 0 :1:5 
+]
+[u S135 . 1 `S95 1 . 1 0 `S104 1 . 1 0 `S111 1 . 1 0 `S118 1 . 1 0 `S121 1 . 1 0 `S130 1 . 1 0 ]
+[v _RXB0CONbits RXB0CONbits `VES135  1 e 1 @3936 ]
+"23722
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23834
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"24160
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24275
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24337
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"24399
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"24461
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"24523
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"24585
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"24647
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"24709
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"24880
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24984
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25046
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25117
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+[s S37 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"25753
+[s S196 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CANRX 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S205 . 1 `uc 1 AN10 1 0 :1:0 
+`uc 1 AN8 1 0 :1:1 
+`uc 1 CANTX 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 AN9 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S214 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S216 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S219 . 1 `S37 1 . 1 0 `S196 1 . 1 0 `S205 1 . 1 0 `S214 1 . 1 0 `S216 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES219  1 e 1 @3969 ]
+[s S28 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"27086
+[u S46 . 1 `S28 1 . 1 0 `S37 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES46  1 e 1 @3987 ]
+[s S259 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"27308
+[s S268 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S277 . 1 `S259 1 . 1 0 `S268 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES277  1 e 1 @3988 ]
+"35526
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"36120
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36702
+[v _RXB0IE RXB0IE `VEb  1 e 0 @32024 ]
+"36705
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"36708
+[v _RXB0IP RXB0IP `VEb  1 e 0 @32040 ]
+"85 D:\project folder\hsgdhf.X\mainappln.c
+[v _flag flag `i  1 e 2 0 ]
+"101
+[v _main main `(v  1 e 1 0 ]
+{
+"137
+} 0
+"13 D:\project folder\hsgdhf.X/TX_WRITE.h
+[v _tx_write tx_write `(v  1 e 1 0 ]
+{
+"17
+[v tx_write@DH DH `ui  1 a 2 8 ]
+"16
+[v tx_write@DL DL `ui  1 a 2 6 ]
+"13
+[v tx_write@ID ID `ui  1 p 2 2 ]
+"32
+} 0
+"11 D:\project folder\hsgdhf.X/sys_init.h
+[v _sys_init sys_init `(v  1 e 1 0 ]
+{
+"18
+} 0
+"15 D:\project folder\hsgdhf.X/RX_receive.h
+[v _rx_receive rx_receive `(v  1 e 1 0 ]
+{
+"35
+} 0
+"11 D:\project folder\hsgdhf.X/mask_filter.h
+[v _mask_filter mask_filter `(v  1 e 1 0 ]
+{
+"18
+} 0
+"11 D:\project folder\hsgdhf.X/can_init.h
+[v _can_init can_init `(v  1 e 1 0 ]
+{
+"17
+} 0
+"11 D:\project folder\hsgdhf.X/can_config.h
+[v _can_config_baud can_config_baud `(v  1 e 1 0 ]
+{
+"21
+} 0
+"11 D:\project folder\hsgdhf.X/set_mode.h
+[v _set_mode set_mode `(v  1 e 1 0 ]
+{
+[v set_mode@X X `ui  1 p 2 0 ]
+"20
+} 0
+"88 D:\project folder\hsgdhf.X\mainappln.c
+[v _ISR1 ISR1 `IIH(v  1 e 1 0 ]
+{
+"99
+} 0
